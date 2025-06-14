@@ -1,4 +1,53 @@
-img {
-  max-width: 100%;
-  height :auto;
-} 
+*,
+*::after,
+*::before {
+  box-sizing: border-box ;
+}
+
+body {
+  font-family: sans-serif;
+  margin :0;
+}
+
+.header {
+ display: flex;
+ flex-direction: column ;
+ align-items: stretch ;
+ }
+ 
+ .fondo_logo{
+   display: flex ;
+   flex-direction: column ;
+   width :100vw;
+   height :60vh;
+   background-color :#0005 ;
+   justify-content:  center ;
+   align-items: center ;
+ }
+ 
+  
+ h1{
+   margin: 0;
+   color :#fff ;
+   font-size: 3.5rem ;
+ }
+ 
+ p {
+   color :inherit ;
+   max-width :80vw;
+ }
+ 
+ .div_header {
+   background-image: url(image/barichara.jpg);
+   width :100vw;
+ height :60vh ;
+ background-size: cover;
+ }
+
+
+
+
+
+.main {
+  background-color :yellow ;
+}
