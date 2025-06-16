@@ -1,53 +1,66 @@
 *,
 *::after,
 *::before {
-  box-sizing: border-box ;
+  box-sizing: border-box;
 }
 
 body {
   font-family: sans-serif;
-  margin :0;
+  margin: 0;
 }
 
-.header {
- display: flex;
- flex-direction: column ;
- align-items: stretch ;
- }
- 
- .fondo_logo{
-   display: flex ;
-   flex-direction: column ;
-   width :100vw;
-   height :60vh;
-   background-color :#0005 ;
-   justify-content:  center ;
-   align-items: center ;
- }
- 
+.nav_header{
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: #222;
   
- h1{
-   margin: 0;
-   color :#fff ;
-   font-size: 3.5rem ;
- }
- 
- p {
-   color :inherit ;
-   max-width :80vw;
- }
- 
- .div_header {
-   background-image: url(image/barichara.jpg);
-   width :100vw;
- height :60vh ;
- background-size: cover;
- }
+}
+
+.logo{
+  width: 15vw;
+  height: auto;
+}
+
+.div_fondo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 60vh;
+  background-color: #0006;
+}
+
+.div_image {
+  background-image: url(image/barichara.jpg);
+  width: 100vw;
+  height: 60vh;
+  background-size: cover;
+  color: #fff;
+}
+
+
+h1 {
+  margin: 0;
+  color: #fff;
+  font-size: 3.5rem;
+  margin: 0;
+}
+
+p {
+  color: inherit;
+  max-width: 80vw;
+  margin: 0;
+}
+
+
 
 
 
 
 
 .main {
-  background-color :yellow ;
+  background-color: yellow;
 }
